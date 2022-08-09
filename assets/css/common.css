@@ -1,0 +1,61 @@
+.title--glitch {
+    position: relative;
+    letter-spacing: 20px;
+    filter: drop-shadow(16px 7px 16px #1400e0) !important;
+    text-shadow: 4px 3px #c333ff;
+}
+
+.title--glitch:after, .title--glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.title--glitch:before {
+    left: 0;
+    left: 2px;
+    text-shadow: -2px 0 #4edade;
+    clip: rect(44px, 450px, 560px, 0);
+    animation: glitch-anim 1s linear infinite
+}
+
+.title--glitch:after {
+    left: 0;
+    left: -2px;
+    text-shadow: -2px 0 #00f7ff, 2px 2px #ff00c1;
+    animation: glitch-anim2 3s linear infinite
+}
+
+.title--glitch:after, .title--glitch:before {
+    /*top: 50px*/
+}
+
+img.port_item--img {
+    max-height: calc(4em);
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.mg-auto {
+    margin: auto;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    max-width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}

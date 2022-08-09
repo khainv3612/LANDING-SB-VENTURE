@@ -1,0 +1,230 @@
+@media (max-width: 700px) {
+    .preloader_img--wrap {
+        max-width: 90%;
+    }
+
+    .nav_menu--half {
+        background-size: 28em;
+        opacity: 0.5;
+        filter: blur(1px);
+    }
+
+    .hud_progress {
+        width: 6.5em;
+        height: 6.5em;
+    }
+
+    .hud_progress, .progress_txt.is--btm {
+        font-size: 9px;
+    }
+
+    .gif_logo_main {
+        background-size: contain;
+    }
+
+    .hero_content--wrap_sub {
+        top: 15px;
+    }
+
+    .hero_h1 {
+        letter-spacing: unset;
+    }
+
+    .about_div {
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding: 0 !important;
+    }
+
+    .about_right_div {
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+
+    .container.is--mission {
+        /*align-items: flex-start;*/
+        /*justify-content: start;*/
+        /*-webkit-box-align: start;*/
+        padding-right: 0;
+        padding-left: 0;
+        word-break: break-word;
+    }
+
+    .elrond_para--wrap {
+        padding-left: 0;
+    }
+
+    .elrond_para--wrap p {
+        word-break: break-word;
+        max-width: 100%;
+    }
+
+    .lst_mission {
+        padding-top: 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .lst_offer {
+        max-width: 100%;
+    }
+
+    .sub_offer {
+        grid-template-columns: 1fr !important;
+    }
+
+    .content_div {
+        padding: 50px 40px;
+    }
+
+    .sub_offer.sub_offer_even .content_div {
+        grid-row: 1;
+    }
+
+    .rock_img {
+        bottom: 227px;
+    }
+
+    .img_rock_2 {
+        top: unset;
+        bottom: 200px;
+    }
+
+    .blue_star {
+        top: 20em;
+        -webkit-animation: linear infinite;
+        -webkit-animation-name: MoveUpDownLong;
+        -webkit-animation-duration: 5s;
+    }
+
+    .prod_list--wrap {
+        width: 100%;
+    }
+
+    .prod_sdesc {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+    }
+
+    .prod_logo {
+        max-width: 120px;
+    }
+
+    .coming_title {
+        padding-bottom: 50px;
+    }
+
+    .footer_content--wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .container.is--footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .footer_menu {
+        grid-template-columns: 1fr;
+    }
+
+    .soc_nav--list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .menu_title {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .hr {
+        content: url("../image/mobile/hr.png");
+    }
+
+    .title_offer, .title_partner, .portfolio_title_head {
+        margin-left: 10px;
+    }
+
+    .hud_progress {
+        bottom: -99px;
+    }
+}
+
+@media (max-width: 300px) {
+    .layout section {
+        padding: 0 10px;
+    }
+
+    .nav_menu--half {
+        background-size: 20em;
+        opacity: 0.5;
+        filter: blur(1px);
+    }
+
+    .nav_link--txt {
+        font-size: 2em;
+    }
+
+    .container.is--navmenu {
+        height: fit-content;
+        padding-top: 16em;
+    }
+
+    .img_logo_main {
+        padding-bottom: 0;
+    }
+
+    .hero_h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .body_heading.is--softfade.is--quote {
+        padding-left: 0;
+    }
+
+    .content_about {
+        font-size: 12px !important;
+        font-weight: 500;
+        order: 1;
+        align-self: stretch;
+    }
+
+    .divider._2em {
+        height: 1em;
+    }
+
+    .container.is--mission {
+        height: 60vh;
+    }
+
+    .content_mission {
+        font-size: 14px !important;
+    }
+
+    .container.is--port, .container.is--prod {
+        width: 100%;
+        padding-top: 2em;
+
+    }
+
+    .portfolio_title_head {
+        letter-spacing: unset;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+
+    .sub_mission .name_mission {
+        font-size: 12px;
+    }
+}

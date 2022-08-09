@@ -1,0 +1,12 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-bg-blue: #0F8CC5;
+    --max_with: 1280px;
+    --color_active_lang: #0F8CC5;
+    --color_bg_footer: #0F1A54;
+    --color_bg_buy_ste: #DBEAFE;
+
+    --font-poppins: 'Poppins', sans-serif;
+    --max-width: 1280px;
+}

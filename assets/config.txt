@@ -1,0 +1,10 @@
+1. Preload:
+- Change data(img/ svg,...:
+ + https://lottiefiles.com/svg-to-lottie
+ + Change data of preload_sb.json
+
+- Change time preload: webflow.js
+ + Change value of param 'delay' in line 25848 and 25862
+ + Change value of param 'duration' in line 25850 and 25864
+
+- Change speed preload : change data-duration of <div id="w-node-ba7dbc5e-fca8-9a02-8978-d0f9f4f65a62-f4f65a61"> in index.html
